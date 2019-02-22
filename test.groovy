@@ -1,3 +1,5 @@
-def valeur = "dude"
+def getValeur(){
+    return "dude" 
+}
 
 return this
