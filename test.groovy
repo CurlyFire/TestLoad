@@ -1,8 +1,4 @@
-def getValeur(){
-    return "dude" 
-}
-
-def myStuff = "alpha"
+package org.foo
 
 class Email
 {
