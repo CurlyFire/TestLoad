@@ -4,4 +4,9 @@ def getValeur(){
 
 def myStuff = "alpha"
 
+class Email
+{
+    String Subject
+}
+
 return this
