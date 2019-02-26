@@ -1,4 +1,4 @@
 #!groovy
 echo "dude"
 var script = evaluate readTrusted('jenkins/common.groovy')
-var val = script.sayHi()
+script.sayHi()
