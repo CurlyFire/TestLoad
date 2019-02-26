@@ -3,5 +3,3 @@ echo "dude"
 def script = evaluate readTrusted('jenkins/common.groovy')
 def returnVal = script.sayHi()
 echo returnVal
-
-def email = script.Email.new()
