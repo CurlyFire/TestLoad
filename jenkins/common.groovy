@@ -3,4 +3,4 @@ def sayHi()
     return "hi"
 }
 
-return this
+return [sayHi : this.&sayHi]
