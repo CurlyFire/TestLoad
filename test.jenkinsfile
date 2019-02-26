@@ -1,4 +1,4 @@
 #!groovy
 echo "dude"
-def script = readTrusted 'jenkins/common.groovy'
+def script = load 'jenkins/common.groovy'
 script.sayHi()
