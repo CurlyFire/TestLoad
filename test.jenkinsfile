@@ -1,5 +1,5 @@
 #!groovy
 echo "dude"
-var script = readTrusted 'jenkins/common.groovy'
-var val = script.sayHi('msg')
+def script = readTrusted 'jenkins/common.groovy'
+def val = script.sayHi('msg')
 echo val
