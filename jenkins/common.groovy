@@ -1,4 +1,4 @@
-def sayHi(String msg)
+def sayHi()
 {
     return "hi"
 }
